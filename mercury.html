@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+<style>
+
+a {
+    text-decoration:none;
+}
+
+body {
+      /*background-color:black;*/
+      color: white;
+      background-image: url('universe_gif_1.gif');
+      background-size: contain;
+      background-repeat: repeat;
+}
+
+header {
+    /*background-color:black;*/
+    font-size: 30px;
+    text-align:left;
+    margin-left: 50px;
+    color:white;
+}
+
+img {
+  float:left;
+  width: 33%;
+  height: auto;
+  opacity: 1.0;
+  margin-right: 30px;
+  margin-left:50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    display:block;
+}
+
+#demo {
+    font-size: 15px;
+}
+
+.mercury-image:hover {
+    border: 3px solid white;
+    transform: scale(1.05);
+}
+
+.mercury-image {
+    transition: all 500ms linear;
+}
+
+
+.submit-button:hover {
+    background-color : rgb(24, 237, 31);
+}
+
+.submit-button {
+    transition: all 500ms linear;
+}
+
+
+</style>
+</head>
+<body>
+
+    
+<header>
+ <h1>Mercury</h1>
+</header>
+
+<section class="Mercury_text">
+<p><img src="mercury.jpg" alt="Mercury" class="mercury-image">
+    Mercury is the smallest and innermost planet in the Solar System. 
+    Its orbit around the Sun takes 87.97 days, the shortest of all the planets in the Solar System. 
+    It is named after the Greek god Hermes (Ερμής), 
+    translated into Latin Mercurius Mercury, god of commerce, messenger of the gods, 
+    mediator between gods and mortals.</p>
+</section>
+
+
+
+<form action="https://en.wikipedia.org/wiki/Mercury_(planet)">
+    <button type="submit" class="submit-button">Click me for more information</button>
+ </form>
+    
+
+</body>
+</html>

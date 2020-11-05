@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+      /*background-color:black;*/
+      color: white;
+      background-image: url('solar_system.png'), url('universe_gif_1.gif');
+      background-size: cover;
+      background-repeat: no-repeat, repeat;
+      /*background-repeat: no-repeat;*/
+}
+
+header {
+    /*background-color:black;*/
+    font-size: 30px;
+    text-align: center;
+    /*border: 2px solid black;
+    border-radius: 5px;*/
+    color:white;
+    animation-name: animation-header;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 200ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animation-header {
+    0% {color: white;}
+    50% {color: rgb(223, 159, 237);}
+    100% {color:rgb(202, 29, 87);}
+}
+
+
+
+a {
+    text-decoration:none;
+}
+
+
+.planets-names{
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: yellow;*/
+
+}
+
+.tablink {
+    background-color: white;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border: 5px solid rgb(144, 120, 158);
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    width: 20%;
+    line-height: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: all 500ms linear;
+}
+
+div.tablink:hover {
+  background-color: rgb(194, 190, 178);
+  transform: scale(1.05);
+}
+
+
+</style>
+</head>
+<body>
+ 
+  <!--My Header-->
+<header>
+    <h1>Planets of the Galaxy</h1>
+ </header>
+
+ <!--My Flex Box Container-->
+
+<div class="planets-names">
+
+    <div class="tablink">
+        <a href="mercury.html" target="_blank">
+            <div>Mercury</div>
+        </a>    
+    </div>
+
+    <div class="tablink">
+        <a href="https://en.wikipedia.org/wiki/Venus_(planet)" target="_blank">Venus</a>
+    </div>  
+
+    <div class="tablink">
+        <a href="https://en.wikipedia.org/wiki/Earth_(planet)" target="_blank">Earth</a>
+    </div>
+
+    <div class="tablink">
+        <a href="https://en.wikipedia.org/wiki/Mars_(planet)" target="_blank">Mars</a>
+    </div>
+
+    <div class="tablink">
+        <a href="https://en.wikipedia.org/wiki/Jupiter_(planet)" target="_blank">Jupiter</a>
+    </div>
+
+    <div class="tablink">
+        <a href="https://en.wikipedia.org/wiki/Saturn_(planet)" target="_blank">Saturn</a>
+    </div>
+
+    <div class="tablink">
+        <a href="https://en.wikipedia.org/wiki/Uranus_(planet)" target="_blank">Uranus</a>
+    </div>
+
+    <div class="tablink">
+        <a href="https://en.wikipedia.org/wiki/Neptune_(planet)" target="_blank">Neptune</a>
+    </div>
+
+</div>
+
+
+</body>
+</html>
